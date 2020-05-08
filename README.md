@@ -30,8 +30,9 @@ Python 3.7 </br>
 Spark 2.4.5</br>
 Jupyter Notebook </br>
 
-![data analysis](Screen Shot 2020-05-08 at 2.07.57 PM)
-=> 현재 진행상황:
+![Uploading Screen Shot 2020-05-08 at 2.07.57 PM.png…]()
+</br>
+=> 현재 진행상황: </br>
  find_location.ipynb : 도로명 주소 => 위도, 경도 확인 </br>
  students_num.ipynb : 초중고등학교 기본 정보 구한 테이블 (데이터 부족시 더 크롤링하여 추가할 예정)</br>
    
