@@ -53,5 +53,18 @@ BackEnd: Node JS </br>
 2. 직방과 같이 지도에 트래픽 부화도 나타내면 데이터를 보다 직관적으로 이해하기 쉽게 한다 </br>
 https://www.zigbang.com/home/apt/map 
 
+### DataSet:
 
+1. final_high_school.csv, final_ele_school.csv, final_middle_school.csv: 각 학교, 주소, 위도, 경도, 학년별 숫자수
+데이터셋 </br>
+2. 2019_students_num.csv : 학교별 학급별 학생수, (19년 유토중등 학교별 학년별 학생수 학습수 입학 졸업 교원 직원 면적_191227)  </br>
+3. elementary_middle_schools_location.csv: 초중학교 위도,경도 (전국초중등학교위치표준데이터)</br>
+4. elementary.csv: 초등학교 이름, 주소, 위도,경도  (전국초중등학교위치표준데이터)</br>
+5. middle_school.csv: 중학교 이름, 주소, 위도,경도 (전국초중등학교위치표준데이터)  </br>
+6. high_school.csv: 고등학교 이름, 주소, (전국고등학교군표준데이터) 위도,경도  </br>
+7. high_timetable, middle_timetable, elementary_timetable.csv : 초중고등학교 시간표 (교시, 수업 진행 시간)
+
+### Algorithm:
+1. students_num.ipynb : 학교별  학급별 학생수 데이터셋을 학교 이름, 주소,위도,경도에 합치기 </br>
+2. find_location.ipynb :high_school.csv의 경우  위도,경도 정보 없어서 이를 구하여 high_school.csv에 입력시켜주기
 
